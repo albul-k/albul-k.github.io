@@ -1,0 +1,150 @@
+sidebar:
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Konstantin Albul
+    tagline: Full Stack Developer
+    avatar: profile.png
+
+    # Sidebar links
+    email: konstantin.albul@gmail.com
+    phone: +7-921-891-41-09
+    # website: #do not add http://
+    linkedin: albul-k
+    # xing:
+    github: albul-k
+    telegram: albul_konstantin
+    # gitlab:
+    # bitbucket:
+    # twitter:
+    # stack-overflow: # Number/Username
+    # goodreads: # Number-Username, e.g. 123456-alandoe
+    # leetcode: k-albul
+    kaggle: konstantinalbul
+    # pdf: 
+
+    languages:
+      - idiom: Russian
+        level: Native
+
+      - idiom: English
+        level: Intermediate
+
+    interests:
+      - item: Hunting
+        link:
+
+      - item: Cooking
+        link:
+
+# career-profile:
+#     title: Career Profile
+#     summary: |
+      
+education:
+    - degree: Training. Data science
+      university: GeekBrains
+      time: 2020 - 2021
+      details: |
+        Geek University of Artificial intelligence
+    - degree: Specialist
+      university: ITMO UNIVERSITY
+      time: 2005 - 2011
+      details: |
+        Faculty of Engineering and Physics. Laser technology
+
+experiences:
+    - role: Lead Developer
+      time: 2016 - Present
+      company: SP.ARM
+      details: |
+        - Development of an ML model for predicting survival from COVID-19 together with the Federal State Budgetary Institution "National Medical Research Center named after V. A. Almazov"
+        - Implemented digital signature functionality
+        - Created a database of auditing user actions
+        - Interaction with customers, discussion of technical specifications
+    - role: Developer
+      time: 2010 - 2016
+      company: SP.ARM
+      details: |
+        - Developed new functional modules: exchange messages, electronic medical record, discharge epicrisis
+        - Development of screen / reporting forms
+
+projects:
+    title: Projects
+    intro: >
+      
+    assignments:
+      - title: jokesbot
+        link: https://github.com/albul-k/jokesbot
+        tagline: A bot that fits a similar joke according to the entered context(theme)
+        stack:
+          - python
+          - HTML
+          - FastText
+          - sklearn
+          - pymorphy2
+          - Flask
+          - Docker
+          - CI
+
+      - title: scraper_jokes
+        link: https://github.com/albul-k/scraper_jokes
+        tagline: Site parser
+        stack:
+          - python
+          - Scrapy
+          - SQLAlchemy
+          - SQLite
+
+      - title: gb_megafon_course_work
+        link: https://github.com/albul-k/gb_megafon_course_work
+        tagline: ML task. The goal is to predict the probability will buy user service or not.
+        stack:
+          - python
+          - jupyter
+          - sklearn
+          - pandas
+          - numpy
+          - dask
+
+      - title: db_mysql_prototype
+        link: https://github.com/albul-k/db_mysql_prototype
+        tagline: Prototype of ivi.ru MySQL DB
+        stack:
+          - SQL
+
+achievements:
+    title: Achievements
+    intro: |
+      
+    events:
+      - title: VTB Data Analysis Championship / 83 from 265 /
+        link: https://boosters.pro/championship/data_fusion
+
+      - title: Data Analysis Championship from Alfa-Bank and Partners
+        link: https://boosters.pro/championship/alfabattle2
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: ObjectScript
+        level: 90%
+      
+      - name: Python
+        level: 70%
+
+      - name: Javascript
+        level: 60%
+
+      - name: HTML5 & CSS
+        level: 80%
+
+      - name: SQL
+        level: 60%
+
+      - name: Git, CI, Docker
+        level: 70%
+
+footer: >
+  Theme designed by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

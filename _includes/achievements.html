@@ -1,0 +1,30 @@
+{% assign achievements = site.data.data.achievements %}
+{% if achievements %}
+<section class="section achievements-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ achievements.title }}
+  </h2>
+
+  {% if achievements.intro %}
+  <div class="intro">
+    {{ achievements.intro | markdownify }}
+  </div><!--//intro-->
+  {% endif %}
+
+  {% for achievement in achievements.events %}
+  <div class="item">
+    {% if achievement.link %}
+      <li><a href="{{ achievement.link }}">{{ achievement.title }}</a></li>
+    {% else %}
+      <li>{{ achievement.title }}</li>
+    {% endif %}
+  </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}
