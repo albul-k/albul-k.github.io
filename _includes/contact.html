@@ -19,6 +19,12 @@
     </li>
     {% endif %}
 
+    {% if sidebar.skype %}
+    <li class="skype"><i class="fab fa-skype"></i>
+      <a href="skype:{{ sidebar.skype }}?chat" target="_blank">{{ sidebar.skype }}</a>
+    </li>
+    {% endif %}
+
     {% if sidebar.website %}
     <li class="website"><i class="fas fa-globe-americas"></i>
       <a href="http://{{ sidebar.website }}" target="_blank">{{ sidebar.website }}</a>
