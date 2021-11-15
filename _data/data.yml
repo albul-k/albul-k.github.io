@@ -80,22 +80,43 @@ projects:
         tagline: A bot that fits a similar joke according to the entered context(theme)
         stack:
           - python
-          - HTML
-          - FastText
+          - html
+          - fasttext
           - sklearn
           - pymorphy2
-          - Flask
-          - Docker
-          - CI
+          - flask
+          - docker
+          - ci
 
       - title: scraper_jokes
         link: https://github.com/albul-k/scraper_jokes
         tagline: Site parser
         stack:
           - python
-          - Scrapy
-          - SQLAlchemy
-          - SQLite
+          - scrapy
+          - sqlalchemy
+          - sqlite
+
+      - title: ml_choose_tutors_frontend
+        link: https://github.com/albul-k/ml_choose_tutors_frontend
+        tagline: React frontend for ml_choose_tutors_backend
+        stack:
+          - react
+          - mui
+          - axios
+          - typescript
+
+      - title: ml_choose_tutors_backend
+        link: https://github.com/albul-k/ml_choose_tutors_backend
+        tagline: ML task. The goal is to predict the probability for a tutor to be a proper one for preparing for the math exam.
+        stack:
+          - python
+          - sklearn
+          - pandas
+          - numpy
+          - flask
+          - docker
+          - ci
 
       - title: gb_megafon_course_work
         link: https://github.com/albul-k/gb_megafon_course_work
@@ -112,7 +133,7 @@ projects:
         link: https://github.com/albul-k/db_mysql_prototype
         tagline: Prototype of ivi.ru MySQL DB
         stack:
-          - SQL
+          - sql
 
 achievements:
     title: Achievements
