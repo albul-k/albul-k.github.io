@@ -17,25 +17,28 @@
   {% endif %}
 
   {% for project in projects.assignments %}
-    <div class="item">
+    <ul>
+      <li class="item">
+        <span class="project-title">
+          {% if project.link %}
+            
+            <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" data-bs-placement="top" title="{{ project.tooltip }}">
+              <a href="{{ project.link }}" target="_blank" >{{ project.title }}</a>
+            </span>
+          {% else %}
+            {{ project.title }}
+          {% endif %}
+        </span>
 
-      <span class="project-title">
-        {% if project.link %}
-          <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
-        {% else %}
-          {{ project.title }}
+        {% if project.stack %}
+          <div>
+          {% for item in project.stack %}
+            <span class="badge bg-secondary">{{ item }}</span>
+          {% endfor %}
+          </div>
         {% endif %}
-      </span>
-
-      {% if project.stack %}
-        <div>
-        {% for item in project.stack %}
-          <span class="badge bg-secondary">{{ item }}</span>
-        {% endfor %}
-        </div>
-      {% endif %}
-
-    </div><!--//item-->
+      </li>
+    </ul><!--//item-->
   {% endfor %}
 
 </section><!--//section-->

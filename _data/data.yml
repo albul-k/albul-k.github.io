@@ -77,7 +77,7 @@ projects:
     assignments:
       - title: jokesbot
         link: https://github.com/albul-k/jokesbot
-        tagline: A bot that fits a similar joke according to the entered context(theme)
+        tooltip: A bot that fits a similar joke according to the entered context(theme)
         stack:
           - python
           - html
@@ -90,7 +90,7 @@ projects:
 
       - title: scraper_jokes
         link: https://github.com/albul-k/scraper_jokes
-        tagline: Site parser
+        tooltip: Site parser
         stack:
           - python
           - scrapy
@@ -99,7 +99,7 @@ projects:
 
       - title: ml_choose_tutors_frontend
         link: https://github.com/albul-k/ml_choose_tutors_frontend
-        tagline: React frontend for ml_choose_tutors_backend
+        tooltip: React frontend for ml_choose_tutors_backend
         stack:
           - react
           - mui
@@ -108,7 +108,7 @@ projects:
 
       - title: ml_choose_tutors_backend
         link: https://github.com/albul-k/ml_choose_tutors_backend
-        tagline: ML task. The goal is to predict the probability for a tutor to be a proper one for preparing for the math exam.
+        tooltip: ML task. The goal is to predict the probability for a tutor to be a proper one for preparing for the math exam.
         stack:
           - python
           - sklearn
@@ -120,7 +120,7 @@ projects:
 
       - title: gb_megafon_course_work
         link: https://github.com/albul-k/gb_megafon_course_work
-        tagline: ML task. The goal is to predict the probability will buy user service or not.
+        tooltip: ML task. The goal is to predict the probability will buy user service or not.
         stack:
           - python
           - jupyter
@@ -131,7 +131,7 @@ projects:
 
       - title: db_mysql_prototype
         link: https://github.com/albul-k/db_mysql_prototype
-        tagline: Prototype of ivi.ru MySQL DB
+        tooltip: Prototype of ivi.ru MySQL DB
         stack:
           - sql
 
