@@ -73,8 +73,17 @@ experiences:
 projects:
     title: Projects
     intro: >
-      
+
     assignments:
+      - title: aliexpress
+        link: https://github.com/albul-k/aliexpress
+        tooltip: Simple parser of product card with delivery information and REST API to get of parsed information
+        stack:
+          - python
+          - fastapi
+          - httpx
+          - beautifulsoup
+
       - title: jokesbot
         link: https://github.com/albul-k/jokesbot
         tooltip: A bot that fits a similar joke according to the entered context(theme)
